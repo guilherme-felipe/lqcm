@@ -1,0 +1,52 @@
+pm6 pdb  precise pka
+
+
+HETATM    1  C1  GAL A 350      82.506  28.904  85.200  1.00  9.10           C  
+HETATM    2  O1  GAL A 350      82.300  28.613  83.869  1.00 11.15           O  
+HETATM    3  C2  GAL A 350      81.693  27.942  86.069  1.00  9.56           C  
+HETATM    4  O2  GAL A 350      80.310  28.070  85.767  1.00  9.41           O  
+HETATM    5  C3  GAL A 350      81.945  28.277  87.523  1.00 10.15           C  
+HETATM    6  O3  GAL A 350      81.283  27.340  88.295  1.00  8.19           O  
+HETATM    7  C4  GAL A 350      83.467  28.286  87.883  1.00  8.70           C  
+HETATM    8  O4  GAL A 350      83.918  26.961  87.812  1.00 12.94           O  
+HETATM    9  C5  GAL A 350      84.257  29.171  86.875  1.00 10.84           C  
+HETATM   10  O5  GAL A 350      83.894  28.788  85.516  1.00  8.85           O  
+HETATM   11  C6  GAL A 350      85.792  29.016  87.029  1.00 10.05           C  
+HETATM   12  O6  GAL A 350      86.457  29.963  86.205  1.00 11.23           O  
+HETATM   13  HO1 GAL A 350      82.821  29.204  83.337  1.00  0.00           H  
+HETATM   14  HO2 GAL A 350      79.873  27.175  85.622  1.00  0.00           H  
+HETATM   15  HO3 GAL A 350      80.374  27.289  88.007  1.00  0.00           H  
+HETATM   16  HO4 GAL A 350      84.847  26.947  88.030  1.00  0.00           H  
+HETATM   17  HO6 GAL A 350      87.025  29.525  85.591  1.00  0.00           H  
+HETATM   18  H1  GAL A 350      82.175  29.943  85.374  1.00  0.00           H  
+HETATM   19  H2  GAL A 350      82.018  26.906  85.863  1.00  0.00           H  
+HETATM   20  H3  GAL A 350      81.516  29.265  87.727  1.00  0.00           H  
+HETATM   21  H4  GAL A 350      83.594  28.679  88.904  1.00  0.00           H  
+HETATM   22  H5  GAL A 350      83.990  30.225  87.033  1.00  0.00           H  
+HETATM   23  H61 GAL A 350      86.116  28.001  86.778  1.00  0.00           H  
+HETATM   24  H62 GAL A 350      86.052  29.212  88.076  1.00  0.00           H  
+CONECT    1    2    3   10   18
+CONECT    2    1   13
+CONECT    3    1    4    5   19
+CONECT    4    3   14
+CONECT    5    3    6    7   20
+CONECT    6    5   15
+CONECT    7    5    8    9   21
+CONECT    8    7   16
+CONECT    9    7   10   11   22
+CONECT   10    1    9
+CONECT   11    9   12   23   24
+CONECT   12   11   17
+CONECT   13    2
+CONECT   14    4
+CONECT   15    6
+CONECT   16    8
+CONECT   17   12
+CONECT   18    1
+CONECT   19    3
+CONECT   20    5
+CONECT   21    7
+CONECT   22    9
+CONECT   23   11
+CONECT   24   11
+END
